@@ -1,0 +1,20 @@
+zerotier:
+========
+
+root@OpenWrt-Xiaomi3G:/etc/config# zerotier-cli listnetworks
+200 listnetworks <nwid> <name> <mac> <status> <type> <dev> <ZT assigned ips>
+200 listnetworks 233ccaac271266e7 CGC_personal e6:9b:f9:a2:01:e1 OK PRIVATE ztr4n5rswa 10.147.18.30/24
+
+root@OpenWrt-Xiaomi3G:/etc/config# zerotier-cli status
+200 info fdeb85ad2b 1.14.1 ONLINE
+
+root@OpenWrt-Xiaomi3G:/etc/config# zerotier-cli listpeers
+200 listpeers <ztaddr> <path> <latency> <version> <role>
+200 listpeers 233ccaac27 35.209.155.175/21034;914;914 128 1.14.2 LEAF
+200 listpeers 282396fbbd 192.168.10.225/9993;5867;5854 10 1.14.0 LEAF
+200 listpeers 778cde7190 2605:9880:400:c3:254:f2bc:a1f7:19/9993;866;125864 70 - PLANET
+200 listpeers 82ef265796 192.168.1.4/9993;866;859 15 1.12.2 LEAF
+200 listpeers cafe04eba9 84.17.53.155/9993;55870;125723 207 - PLANET
+200 listpeers cafe80ed74 2a02:6ea0:c87f::1/9993;55870;125791 141 - PLANET
+200 listpeers cafefd6717 2a02:6ea0:d368::9993/9993;55870;125689 240 - PLANET
+root@OpenWrt-Xiaomi3G:/etc/config#
