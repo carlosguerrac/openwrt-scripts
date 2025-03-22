@@ -18,3 +18,13 @@ root@OpenWrt-Xiaomi3G:/etc/config# zerotier-cli listpeers
 200 listpeers cafe80ed74 2a02:6ea0:c87f::1/9993;55870;125791 141 - PLANET
 200 listpeers cafefd6717 2a02:6ea0:d368::9993/9993;55870;125689 240 - PLANET
 root@OpenWrt-Xiaomi3G:/etc/config#
+
+root@OpenWrt-Xiaomi3G:/etc/config# uci show zerotier
+zerotier.global=zerotier
+zerotier.global.enabled='1'
+zerotier.global.secret='fdeb85ad2b:0:96e22f08de775176a86c8967de250fecf56e9e48046923abe04d152fd9c928747c6008337590282f810d01200d2ea461c8d0d8a42d136f25b90477e4481b8803:5d66500285faba9a346b17a16d7c6b4227b730d6a1d4ef5955d9873d1bc343f5e09a184f38cf908d76e8904adadaddf8cb96fcd7baef0ff64fd772ad0a821af7'
+zerotier.CGC_personal=zerotier
+zerotier.CGC_personal.enabled='1'
+zerotier.CGC_personal.port='9993'
+zerotier.CGC_personal.join='233ccaac271266e7'
+root@OpenWrt-Xiaomi3G:/etc/config#
